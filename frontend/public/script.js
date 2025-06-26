@@ -20,8 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
         formTitle.textContent = "Student Login";
     });
 
-    
-
     // Handle Signup Form
     signupForm.addEventListener("submit", function (event) {
         event.preventDefault();
@@ -31,9 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const password1 = signupForm.querySelector("input[type='password']").value;
         const confirmPassword = signupForm.querySelectorAll("input[type='password']")[1].value;
 
-       
-
-        if (password !== confirmPassword) {
+        if (password1 !== confirmPassword) { // FIXED ERROR
             alert("Passwords do not match.");
             return;
         }
@@ -53,12 +49,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const email = loginForm.querySelector("input[type='email']").value;
         const password = loginForm.querySelector("input[type='password']").value;
 
-
-// Simulate successful login
-alert("Login successful!");
-window.location.href = "student_dashboard.html"; // Redirect after login
-
-
-    
+        // Simulate successful login
+        alert("Login successful!");
+        window.location.href = "student_dashboard.html"; // Redirect after login
     });
 });
