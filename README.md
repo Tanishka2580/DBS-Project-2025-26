@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 # **College Management System**
@@ -72,3 +73,7 @@ cd College_Management_System
 
 ---
 
+=======
+# DBS-Project-2025-26
+Upload DBS project here
+>>>>>>> a3387723ae18e9514d5582acdaa5a825170ce7b7
