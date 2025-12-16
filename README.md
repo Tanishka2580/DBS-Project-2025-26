@@ -68,8 +68,8 @@ cd College_Management_System
 
 ## 👩‍💻 **Author**
 
-**Vaishnavi Pattewar**
-[GitHub Profile](https://github.com/Vaishnavipattewar)
+**Tanishka Adkatalwar**
+
 
 ---
 
